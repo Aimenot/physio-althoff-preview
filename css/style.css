@@ -38,6 +38,12 @@ body {
   .kontakt-box a:hover {
     text-decoration: underline;
   }  
+.social-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
 /* Handy-Optimierung */
 @media (max-width: 768px) {
   body {
