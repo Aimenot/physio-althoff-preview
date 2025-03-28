@@ -1,0 +1,40 @@
+/* Seite nimmt ganze Fläche ein */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/coming-soon-logo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Overlay für Inhalte */
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: transparent; /* optional für leichten Dunkel-Effekt */
+  }
+  
+  /* Kontaktinfos */
+  .kontakt-box {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .kontakt-box a {
+    color: #12372c;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .kontakt-box a:hover {
+    text-decoration: underline;
+  }  
