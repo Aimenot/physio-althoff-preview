@@ -13,14 +13,13 @@ body {
   
   /* Overlay für Inhalte */
   .overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 40px;
-    background-color: transparent; /* optional für leichten Dunkel-Effekt */
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     padding-bottom: 40px;
+     background-color: transparent; /* optional für leichten Dunkel-Effekt */
   }
   
   /* Kontaktinfos */
