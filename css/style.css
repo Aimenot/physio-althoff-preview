@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: url('../img/coming-soon-logo.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: 500px auto;
     font-family: 'Segoe UI', sans-serif;
     color: white;
     height: 100vh;
@@ -47,7 +47,7 @@ body {
 /* Handy-Optimierung */
 @media (max-width: 768px) {
   body {
-    background-size: contain;
+    background-size: 300px auto;
     background-position: top center;
   }
 
